@@ -145,11 +145,11 @@ if not DEBUG:
     DATABASES = {
     'default': {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        'NAME' : 'arquidb',
-        'USER': 'postgres',
-        'PASSWORD': '290597',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'NAME' : 'DB_NAME',
+        'USER': 'DB_NAME',
+        'PASSWORD': 'DB_PASSWORD',
+        'HOST': 'DB_HOST',
+        'PORT': 'DB_PORT'
     }
   }
 
